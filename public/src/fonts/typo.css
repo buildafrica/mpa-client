@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('GTWalsheim-Medium.woff2') format('woff2'),
+        url('GTWalsheim-Medium.woff') format('woff'),
+        url('GTWalsheim-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('GTWalsheim-Thin.woff2') format('woff2'),
+        url('GTWalsheim-Thin.woff') format('woff'),
+        url('GTWalsheim-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('GraphikWeb-Regular.woff2') format('woff2'),
+        url('GraphikWeb-Regular.woff') format('woff'),
+        url('GraphikWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('561e77200c69864b05a72ff3be7d1d13.woff2') format('woff2'),
+        url('561e77200c69864b05a72ff3be7d1d13.woff') format('woff'),
+        url('561e77200c69864b05a72ff3be7d1d13.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('9645d8a73143c46d5d8636915683395d.woff2') format('woff2'),
+        url('9645d8a73143c46d5d8636915683395d.woff') format('woff'),
+        url('9645d8a73143c46d5d8636915683395d.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('d896a7befda72f345851c50db1d238b0.woff2') format('woff2'),
+        url('d896a7befda72f345851c50db1d238b0.woff') format('woff'),
+        url('d896a7befda72f345851c50db1d238b0.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
