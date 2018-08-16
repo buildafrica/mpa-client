@@ -47,11 +47,10 @@ d63e48- ACCENT RED
 
 .nav-tabs .nav-link{
   height: 30px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1em;
   font-weight: 500;
 }
-
 
 
 .nav-link.active, .nav-link:hover{
@@ -65,9 +64,15 @@ d63e48- ACCENT RED
 
 .HeroFormButton{
   border-radius: 0px;
+  box-shadow: 5px 7px 0px #222222;
 }
 
 
+
+
+
+
+/* Mobile Device Queries */
 @media (max-width: 456px) {
   .HeroForm{
     padding: 20px 25px;

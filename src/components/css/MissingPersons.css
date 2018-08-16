@@ -1,0 +1,11 @@
+/* Missing Persons Card Related CSS
+- Missing Persons List 
+- Missing Persons Card
+- Missing Persons Featured */
+
+
+.card__tag-button{
+  left: 0;
+  top: 0;
+  text-transform: capitalize;
+}

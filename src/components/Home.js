@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Container, Col, Row } from 'reactstrap';
 import HeroForm from './HeroForm';
+import MissingPersonsList from './MissingPersonsList';
 import Footer from './Footer';
 import './css/Home.css';
 
@@ -29,6 +30,13 @@ class Home extends Component{
           </Container>
         </Jumbotron>
       </div>
+
+      {/* Missing Persons Card List Component  */}
+      <div>
+        <MissingPersonsList />
+      </div>
+
+
      
 
       {/* Import Footer Component in Home */}
