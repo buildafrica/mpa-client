@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 class Footer extends Component {
   render() {
     return (
-      <div className="bg-default">
+      <footer className="bg-default">
         <Container>
           <Row>
             <Col sm="5" className="mt-5 mb-5"> 
@@ -17,27 +18,27 @@ class Footer extends Component {
               <Row>
                 <Col sm="4" className="pl-md-5 mt-md-5 mt-4 pl-4">
                   <h5 className="mb-4">Quick Links</h5>
-                  <h6>FAQs</h6>
-                  <h6>About Us</h6>
-                  <h6>Privacy Policy</h6>
-                  <h6>Legal</h6>
-                  <h6>Donate</h6>
+                  <Link className="text-white footer__link" to="/"><h6>FAQs</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>About Us</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Privacy Policy</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Legal</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Donate</h6></Link>
                 </Col>
 
                 <Col sm="4" className="pl-md-5 mt-md-5 mt-4 pl-4">
                   <h5 className="mb-4">Help</h5>
-                  <h6>FAQs</h6>
-                  <h6>About Us</h6>
-                  <h6>Privacy Policy</h6>
-                  <h6>Legal</h6>
-                  <h6>Donate</h6>
+                  <Link className="text-white footer__link" to="/"><h6>FAQs</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>About Us</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Privacy Policy</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Legal</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Donate</h6></Link>
                 </Col>
 
                 <Col sm="4" className="pl-md-5 mt-md-5 mt-4 pl-4">
                   <h5 className="mb-4">Social</h5>
-                  <h6>Facebook</h6>
-                  <h6>Twitter</h6>
-                  <h6>Instagram</h6>
+                  <Link className="text-white footer__link" to="/"><h6>Facebook</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Twitter</h6></Link>
+                  <Link className="text-white footer__link" to="/"><h6>Instagram</h6></Link>
                 </Col>
               </Row>
             </Col>
@@ -45,7 +46,7 @@ class Footer extends Component {
           </Row>
         </Container>
 
-      </div>
+      </footer>
 
     )
   }

@@ -29,3 +29,12 @@ body {
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "GT Walsheim", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
+footer h6{
+  font-weight: 400;
+}
+
+footer h6:hover{
+  color:#333;
+  text-decoration: #333;
+}
