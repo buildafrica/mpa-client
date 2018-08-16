@@ -1,0 +1,29 @@
+.HeaderInput{
+  border-radius: 40px;
+  padding: 15px;
+  height: 32px;
+  max-width: 200px;
+  border: 2px solid #fff;
+  background: url(../img/glass.svg) transparent no-repeat left center;
+  background-size: 25px;
+  text-indent: 20px;
+  background-clip: border-box;
+  display: inline-block;
+  background-position-x: 5px;
+
+}
+
+
+/* Place Holder Text Color  */
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+}
+input:-ms-input-placeholder {  
+color: #fff !important;  
+}

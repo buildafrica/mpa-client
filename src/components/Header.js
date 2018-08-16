@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import './css/Header.css';
 // import navigation dependant reactstrap components
 import {  Collapse,  Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem,  NavLink,  UncontrolledDropdown,  DropdownToggle,   DropdownMenu,
   DropdownItem } from "reactstrap";
 
 // import Navlink from react Router, while renaming component reference
   import { NavLink as RRNavLink } from 'react-router-dom';
+  import HeaderSearch from "./HeaderSearch";
 
 
 class Header extends Component {
@@ -24,37 +26,41 @@ class Header extends Component {
       render() {
         return (
           <div>
-            <Navbar color="dark" expand="md">
-              <NavbarBrand tag={RRNavLink} to="/">MPA</NavbarBrand>
-              <NavbarToggler onClick={this.toggle} />
-              <Collapse isOpen={this.state.isOpen} navbar>
+            <Navbar  expand="md" className="defaultNav">
+              <NavbarBrand tag={RRNavLink} to="/" className="logo">MPA</NavbarBrand>
+              <NavbarToggler onClick={this.toggle} className="mobileToggle"/>
+              <Collapse isOpen={this.state.isOpen} navbar className="toggleButton">
                 
               <Nav navbar className="mr-auto">
                 <ul className="navbar-nav ml-5 mt-2 mt-md-0">
                   <NavItem>
-                    <NavLink tag={RRNavLink} to="/">Home</NavLink>
+                    <NavLink tag={RRNavLink} to="/" className="text-white">Home</NavLink>
                   </NavItem>
                   
                   <NavItem>
-                    <NavLink tag={RRNavLink} to="/about">About</NavLink>
+                    <NavLink tag={RRNavLink} to="/about" className="text-white">About</NavLink>
                   </NavItem>
                   
                   <NavItem>
-                    <NavLink tag={RRNavLink} to="/explore">Explore</NavLink>
+                    <NavLink tag={RRNavLink} to="/explore" className="text-white">Explore</NavLink>
                   </NavItem>
 
                   <NavItem>
-                    <NavLink tag={RRNavLink} to="/report-case">Report a Case</NavLink>
+                    <NavLink tag={RRNavLink} to="/report-case" className="text-white">Report a Case</NavLink>
                   </NavItem>
                 </ul>
               </Nav>
                   
 
                     {/* // create another navigation section for the Search and Contribute Nav */}
-                <Nav className="mr-5">
+                <Nav className="mr-5 ml-5">
                   <ul className="navbar-nav">
+                  {/* Create Seperate Component for Header Search Bar */}
+                    <HeaderSearch />
+
+                    {/* Contribution Dropdown on Header */}
                     <UncontrolledDropdown nav inNavbar>
-                    <DropdownToggle nav caret>
+                    <DropdownToggle nav caret className="text-white mt-2 ml-3">
                       Contribute
                       </DropdownToggle>
                         <DropdownMenu right>
