@@ -14,11 +14,30 @@ d63e48- ACCENT RED
 
 .defaultNav{
   background: #1961a0;
-  height: 60px;
+  height: 65px;
   font-weight: 500;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1) ;
 }
 
 
 .toggleButton{
   color: #1961a0;
+}
+
+
+
+/* Apply only to mobile devices  */
+@media (max-width: 468px){
+  .toggleButton{
+    background: #333;
+    box-shadow: 10px 10px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Apply only to Desktop Devices  */
+@media (min-width: 992px){
+  .CenterNav{
+    padding-left: 250px;
+  }
 }

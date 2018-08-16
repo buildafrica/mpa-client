@@ -32,7 +32,7 @@ class Header extends Component {
               <Collapse isOpen={this.state.isOpen} navbar className="toggleButton">
                 
               <Nav navbar className="mr-auto">
-                <ul className="navbar-nav ml-5 mt-2 mt-md-0">
+                <ul className="navbar-nav ml-5 mt-2 mt-md-0 CenterNav">
                   <NavItem>
                     <NavLink tag={RRNavLink} to="/" className="text-white">Home</NavLink>
                   </NavItem>

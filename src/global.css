@@ -16,3 +16,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Graphik", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
 }
+
+.bg-default{
+  background: #1961a0;
+}
+
+
+.color-alice{
+  color: aliceblue;
+}
+
+h1, h2, h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "GT Walsheim", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
