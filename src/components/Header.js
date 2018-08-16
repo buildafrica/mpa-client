@@ -4,7 +4,7 @@ import {  Collapse,  Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem,  NavL
   DropdownItem } from "reactstrap";
 
 // import Navlink from react Router, while renaming component reference
-  import { BrowserRouter as router, NavLink as RRNavLink, Link  } from 'react-router-dom';
+  import { NavLink as RRNavLink } from 'react-router-dom';
 
 
 class Header extends Component {
@@ -28,31 +28,51 @@ class Header extends Component {
               <NavbarBrand tag={RRNavLink} to="/">MPA</NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
+                
+              <Nav navbar className="mr-auto">
+                <ul className="navbar-nav ml-5 mt-2 mt-md-0">
                   <NavItem>
-                    <NavLink href="/components/">Components</NavLink>
+                    <NavLink tag={RRNavLink} to="/">Home</NavLink>
                   </NavItem>
+                  
                   <NavItem>
-                    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                    <NavLink tag={RRNavLink} to="/about">About</NavLink>
                   </NavItem>
-                  <UncontrolledDropdown nav inNavbar>
+                  
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/explore">Explore</NavLink>
+                  </NavItem>
+
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/report-case">Report a Case</NavLink>
+                  </NavItem>
+                </ul>
+              </Nav>
+                  
+
+                    {/* // create another navigation section for the Search and Contribute Nav */}
+                <Nav className="mr-5">
+                  <ul className="navbar-nav">
+                    <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
-                      Options
-                </DropdownToggle>
-                    <DropdownMenu right>
-                      <DropdownItem>
-                        Option 1
-                  </DropdownItem>
-                      <DropdownItem>
-                        Option 2
-                  </DropdownItem>
-                      <DropdownItem divider />
-                      <DropdownItem>
-                        Reset
-                  </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
+                      Contribute
+                      </DropdownToggle>
+                        <DropdownMenu right>
+                          <DropdownItem tag={RRNavLink} to="/report-sighting">
+                            Report a Sighting
+                        </DropdownItem>
+                          <DropdownItem tag={RRNavLink} to="/report">
+                            File a report
+                        </DropdownItem>
+                          <DropdownItem divider />
+                          <DropdownItem tag={RRNavLink} to="/social-alerts">
+                            Social Responsibility
+                        </DropdownItem>
+                      </DropdownMenu>
+                    </UncontrolledDropdown>
+                  </ul>
                 </Nav>
+
               </Collapse>
             </Navbar>
           </div>
