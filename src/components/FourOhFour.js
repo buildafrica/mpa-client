@@ -11,7 +11,7 @@ class FourOhFour extends Component {
       <section>
         <HeaderLite />
 
-        <div className="App h-100">
+        <div className="App mh-100">
           <header className="App-header pt-2 p-5">
             <h1 className="display-3 text-white pt-5">O!!</h1>
             <h1 className="App-title text-white pt">Another Missing Person</h1>

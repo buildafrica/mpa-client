@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './css/Header.css';
-import ribbon from './img/underline.png';
 // import navigation dependant reactstrap components
 import {
   Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu,
