@@ -25,6 +25,27 @@ d63e48- ACCENT RED
 }
 
 
+/* Header Lite  */
+.defaultNavLite{
+  background: #1961a0;
+  height: 65px;
+  font-weight: 500;
+}
+
+.rainbow_line{
+  background: url(../img/underline.png);
+  height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Apply only to mobile devices  */
 @media (max-width: 468px){

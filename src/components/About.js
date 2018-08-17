@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import PreFooter from './PreFooter';
 import Footer from './Footer';
+import HeaderLite from './HeaderLite';
 
 //import svg components
 import document from './img/svg/document.svg';
@@ -15,6 +16,8 @@ class About extends Component {
   render() {
     return (
       <section>
+        <HeaderLite />
+        
       <div className="App">
         <header className="App-header pt-2 p-5">
           <h1 className="App-title text-white pt-5">About the Missing Person's Project</h1>

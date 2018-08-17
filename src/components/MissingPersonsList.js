@@ -15,8 +15,8 @@ class MissingPersonsList extends Component{
   render(){
     return(
       <div className="mt-5 mb-5 d-flex flex-row flex-wrap ml-3 mr-3">
-        <MissingPersonCard image={face1} name="Adekunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos"/>
-        <MissingPersonCard image={face2} name="Adekunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos" />
+        <MissingPersonCard image={face1} name="Kunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos"/>
+        <MissingPersonCard image={face2} name="Funke Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos" />
         <MissingPersonCard image={face3} name="Adekunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos" />
         <MissingPersonCard image={face4} name="Adekunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos" />
         <MissingPersonCard image={face5} name="Adekunle Gold" record="Missing Since: 12, Mar 2015" lastSeen="Last Seen: 98 Ademola Street, Ketu Ikeja, Lagos" />

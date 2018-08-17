@@ -53,3 +53,15 @@ footer h6:hover{
   color:#333;
   text-decoration: #333;
 }
+
+
+
+/* Footer Specific Styling */
+  /* Fullwidth Standard Footer  */
+  .mpa__footer-copyright{
+    border-top: 1px solid #084d8a;
+  }
+
+  .mpa__footer-standard{
+    border-bottom: 1px solid #15568f;
+  }
