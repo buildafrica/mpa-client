@@ -21,13 +21,28 @@ body {
   background: #1961a0;
 }
 
+.mpa__bg-dark{
+  background: #1e303f;
+}
 
-.color-alice{
+.mpa__bg-accent{
+  background: #d63e48;
+  border: 1px solid #d63e48;
+}
+
+
+.mpa__color-alice{
   color: aliceblue;
 }
+.mpa__color-dark{
+  color: #1e303f;
+}
+
+
 
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "GT Walsheim", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #1e303f;
 }
 
 footer h6{

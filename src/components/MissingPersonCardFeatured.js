@@ -2,16 +2,15 @@ import React from 'react';
 import { Col, Card, CardBody, CardImg, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
 
 
-
 // using the props namespace
-class MissingPersonCard extends React.Component {
-  render(){
+class MissingPersonCardFeatured extends React.Component {
+  render() {
     return (
 
       <Col sm="3" className="mb-3 mt-3">
         <Card>
-          <CardImg top width="100%" src={this.props.image} alt="Person-Card-Image" />
-          <CardBody className="card__person-shadow">
+          <CardImg className="card__person-image" top width="100%" src={this.props.image} alt="Person-Card-Image" />
+          <CardBody className="card__featured-body">
             <CardTitle>{this.props.name}</CardTitle>
             <CardSubtitle>{this.props.record}</CardSubtitle>
             <CardText>{this.props.lastSeen}</CardText>
@@ -23,4 +22,4 @@ class MissingPersonCard extends React.Component {
   }
 }
 
-export default MissingPersonCard;
+export default MissingPersonCardFeatured;

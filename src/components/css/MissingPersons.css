@@ -4,8 +4,46 @@
 - Missing Persons Featured */
 
 
+/* GLOBAL COLOR SCHEME 
+1961a0- MAIN BLUE
+1e303f- DARK BLUE
+ffffff- WHITE
+d63e48- ACCENT RED
+000000- BLACK */
+
+
+
 .card__tag-button{
   left: 0;
   top: 0;
   text-transform: capitalize;
+}
+
+.card__featured-body{
+  background: #333;
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 5px 5px 0px #d63e48;
+}
+
+.card__featured-body:hover{
+  box-shadow: 0px 0px 0px;
+  transition: ease-in-out 0.5s;
+}
+
+.card__person-shadow{
+  box-shadow: 5px 5px 0px #1e303f;
+}
+
+.card__person-shadow:hover{
+  box-shadow: 0px 0px 0px;
+  transition: ease-in-out 0.5s;
+}
+
+
+
+
+.card__person-image{
+  border-radius: 0px;
+  /* border: 3px solid #fff */
 }
