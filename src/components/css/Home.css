@@ -69,7 +69,10 @@ d63e48- ACCENT RED
 
 
 
-
+.prefooter__image{
+  width: 50%;
+  height: 50%;
+}
 
 
 /* Mobile Device Queries */

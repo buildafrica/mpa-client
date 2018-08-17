@@ -3,8 +3,14 @@ import { Jumbotron, Container, Col, Row, Button } from 'reactstrap';
 import HeroForm from './HeroForm';
 import MissingPersonsList from './MissingPersonsList';
 import MissingPersonFeatured from './MissingPersonFeatured';
+import PreFooter from './PreFooter';
 import Footer from './Footer';
 import './css/Home.css';
+
+//import svg components
+import document from './img/svg/document.svg';
+import report from "./img/svg/report.svg";
+import give from './img/svg/hands.svg'
 
 
 
@@ -54,8 +60,18 @@ class Home extends Component{
 
       {/* Load More Button  */}
       <div className="text-center mb-5 pb-md-5">
-      <Button size="lg" className="rounded-0  mpa__bg-accent">Load More</Button>
+      <Button size="lg" className="rounded-0 mpa__bg-accent w-25">Load More</Button>
       </div>
+
+      {/* Pre Footer Component */}
+      <Container>
+        <div className="mt-4 mb-4 d-flex flex-wrap flex-row offset-md-1 text-center">
+          <PreFooter image={document} alt="learn how we work" heading="Who we Are" />
+          <PreFooter image={report} alt="report a case" heading="Report a Sighting" />
+          <PreFooter image={give} alt="donate and contribute" heading="Support Us" />
+        </div>
+      </Container>
+
 
 
      

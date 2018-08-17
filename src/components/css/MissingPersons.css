@@ -32,7 +32,7 @@ d63e48- ACCENT RED
 }
 
 .card__person-shadow{
-  box-shadow: 5px 5px 0px #1e303f;
+  box-shadow: 3px 3px 0px #1e303f;
 }
 
 .card__person-shadow:hover{
