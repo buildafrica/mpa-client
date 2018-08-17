@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron, Container, Col, Row, Button } from 'reactstrap';
+import Header from './Header';
 import HeroForm from './HeroForm';
 import MissingPersonsList from './MissingPersonsList';
 import MissingPersonFeatured from './MissingPersonFeatured';
@@ -19,12 +20,14 @@ class Home extends Component{
   render() {
     return (
      <section>  
+        <Header />
+
        <div>
         <Jumbotron className="bg-default" style={Hero}>
           <Container>
             <Row>
             <Col sm="6" className="mt-5">
-              <h1 className="display-5 mpa__color-alice">Help us build a Database of Missing Persons</h1>
+              <h1 className="display-5 mpa__color-alice">Help us track the Information of Missing Persons</h1>
               <p className="text-white">Collectively we can create a collaborative platform that will help in the investigation
                 of missing and unidentified person cases</p>
             </Col>
@@ -60,12 +63,12 @@ class Home extends Component{
 
       {/* Load More Button  */}
       <div className="text-center mb-5 pb-md-5">
-      <Button size="lg" className="rounded-0 mpa__bg-accent w-25">Load More</Button>
+      <Button size="lg" className="rounded-0 mpa__bg-accent btn-danger w-25 HeroFormButton">Load More</Button>
       </div>
 
       {/* Pre Footer Component */}
       <Container>
-        <div className="mt-4 mb-4 d-flex flex-wrap flex-row offset-md-1 text-center">
+        <div className="mt-4 mb-4 d-flex flex-wrap flex-row mr-2 ml-2 text-center">
           <PreFooter image={document} alt="learn how we work" heading="Who we Are" />
           <PreFooter image={report} alt="report a case" heading="Report a Sighting" />
           <PreFooter image={give} alt="donate and contribute" heading="Support Us" />

@@ -67,11 +67,15 @@ class Header extends Component {
                           <DropdownItem tag={RRNavLink} to="/report-sighting">
                             Report a Sighting
                         </DropdownItem>
-                          <DropdownItem tag={RRNavLink} to="/report">
+                          <DropdownItem tag={RRNavLink} to="/create-account">
                             Create an Account
                         </DropdownItem>
-                          <DropdownItem divider />
                           <DropdownItem tag={RRNavLink} to="/social-alerts">
+                            Social Responsibility
+                        </DropdownItem>
+
+                          <DropdownItem divider />
+                          <DropdownItem tag={RRNavLink} to="/login">
                             Login
                         </DropdownItem>
                       </DropdownMenu>
