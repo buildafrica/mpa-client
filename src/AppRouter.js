@@ -7,7 +7,6 @@ import Archive from './components/Archive';
 import Login from './components/Login';
 import Home from './components/Home';
 import FourOhFour from './components/FourOhFour';
-// import Header from './components/Header';
 
 
 class App extends Component {
