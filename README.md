@@ -1,4 +1,4 @@
-# The Missing Persons Archive 
+# The Missing Persons Archive  [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/koolamusic/mpa-react)
 
 Welcome to the open missings persons Archive, this platform will aid to support with the investigations of un-identified body cas$
 
