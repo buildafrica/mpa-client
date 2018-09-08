@@ -1,5 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# untrack Express Server
+/server
+/server/node_modules
+
 # UI and screens
 /public/src/ui
 /public/src/playground
