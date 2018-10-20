@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AppRouter.js Component Rendered 1`] = `
+<BrowserRouter>
+  <section>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        path="/about"
+      />
+      <Route
+        component={[Function]}
+        path="/archive"
+      />
+      <Route
+        component={[Function]}
+        path="/login"
+      />
+      <Route
+        component={[Function]}
+        path="/signup"
+      />
+      <Route
+        component={[Function]}
+        path="/resetpass"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+  </section>
+</BrowserRouter>
+`;
