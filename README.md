@@ -1,6 +1,6 @@
 # The Missing Persons Archive  [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/koolamusic/mpa-react)
 
-[![Landing Page](https://imgur.com/wC4N1Gq.png)]
+![Landing Page](https://imgur.com/wC4N1Gq.png)
 
 Welcome to the Open Missings Persons Archives, this platform will aid to support with the investigations of missing and un-identified body cases.
 
