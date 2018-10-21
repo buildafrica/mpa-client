@@ -2,6 +2,7 @@
 <!--- Provide a general summary of your changes in the Title above, describing your changes in detail -->
 <!--- List any dependencies that are required for this change -->
 <!--- Make sure to checkout our CODE_OF_CONDUCT and PULL_REQUEST guidelines in the CONTRIBUTING.md file -->
+<!--- VERY IMPORTANT -- ALWAYS MAKE YOUR PRs TO THE `dev` branch -->
 
 ## Motivation and Context
 <!--- Why is this change required? What problem does it solve? -->
