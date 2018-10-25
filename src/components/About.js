@@ -17,13 +17,13 @@ class About extends Component {
     return (
       <section>
         <HeaderLite />
-        
-      <div className="App">
-        <header className="App-header pt-2 p-5">
-          <h1 className="App-title text-white pt-5">About the Missing Person's Project</h1>
+
+        <div className="App">
+          <header className="App-header pt-2 p-5">
+            <h1 className="App-title text-white pt-5">About the Missing Person's Project</h1>
             <p className="pl-md-5 pr-md-5">This platform will maintain an archive of all information which is published within its domain,
   users can query the database to search for current cases, un-resolved and resolved cases, and see if there is a law enforcement handler on any of the cases.</p>
-        </header>
+          </header>
         </div>
 
         {/* Pre Footer Component */}
