@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './css/HeaderSearch.css';
-import { Form, FormGroup, Input  } from "reactstrap";
+import { Form, FormGroup, Input } from "reactstrap";
 
 
 class HeaderSearch extends Component {
-  render () {
+  render() {
     return (
       <Form className="form-inline mt-1">
         <FormGroup>
